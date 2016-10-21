@@ -5,6 +5,7 @@ include config.mk
 
 SRC = st.c
 OBJ = ${SRC:.c=.o}
+SHELL = /bin/bash
 
 all: options st
 
@@ -57,4 +58,4 @@ uninstall:
 	@echo removing manual page from ${DESTDIR}${MANPREFIX}/man1
 	@rm -f ${DESTDIR}${MANPREFIX}/man1/st.1
 
-.PHONY: all options clean dist install uninstall
+.PHONY: all options clean dist install uninstall randtheme
