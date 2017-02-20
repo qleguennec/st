@@ -83,7 +83,7 @@ static char termname[] = "st-256color";
  */
 static unsigned int tabspaces = 8;
 
-#include "themes/Earthsong.h"
+#include "themes/Chalkboard.h"
 
 /*
  * Default colors (colorname index)
